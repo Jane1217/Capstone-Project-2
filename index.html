@@ -14,13 +14,18 @@
             style="position: fixed; top: 0; left: 0; width: 100%; background: rgba(0, 0, 0, 0.5); z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 1rem;">
             <a href="#hero" style="color: #ffffff; text-decoration: none; font-size: 1.25rem; font-weight: bold;">Yanxin
                 Chen</a>
-            <ul style="list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
-                <li><a href="#about" style="color: #ffffff; text-decoration: none;">About</a></li>
-                <li><a href="#skills" style="color: #ffffff; text-decoration: none;">Skills</a></li>
-                <li><a href="#projects" style="color: #ffffff; text-decoration: none;">Projects</a></li>
-                <li><a href="#experience" style="color: #ffffff; text-decoration: none;">Experience</a></li>
-                <li><a href="#contact" style="color: #ffffff; text-decoration: none;">Contact</a></li>
-            </ul>
+            <div class="nav-right">
+              <ul style="list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
+                  <li><a href="#about" style="color: #ffffff; text-decoration: none;">About</a></li>
+                  <li><a href="#skills" style="color: #ffffff; text-decoration: none;">Skills</a></li>
+                  <li><a href="#projects" style="color: #ffffff; text-decoration: none;">Projects</a></li>
+                  <li><a href="#experience" style="color: #ffffff; text-decoration: none;">Experience</a></li>
+                  <li><a href="#contact" style="color: #ffffff; text-decoration: none;">Contact</a></li>
+              </ul>
+              <button id="theme-toggle" style="background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;">
+                  🌙
+              </button>
+            </div>
         </nav>
   <!-- 其他页面内容略 -->
   <header id="hero">
@@ -202,15 +207,6 @@
         </div>
     </section>
 
-    <!-- Modal for Project Details -->
-    <div id="project-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <div id="modal-body">
-                <!-- JS 会动态插入项目详细信息 -->
-            </div>
-        </div>
-    </div>
 
     <!-- 引入主脚本 -->
     <script src="main.js"></script>
