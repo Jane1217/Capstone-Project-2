@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanxin Chen - Software Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet"> <!-- Google Fonts: Poppins & Roboto -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 后续可以在 style.css 中为暗/亮模式、打字机效果、卡片动画等添加样式 -->
+</head>
+<body>
+        <!-- Navigation Bar (fixed at top) -->
+        <nav id="navbar"
+            style="position: fixed; top: 0; left: 0; width: 100%; background: rgba(0, 0, 0, 0.5); z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 1rem;">
+            <a href="#hero" style="color: #ffffff; text-decoration: none; font-size: 1.25rem; font-weight: bold;">Yanxin
+                Chen</a>
+            <ul style="list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0;">
+                <li><a href="#about" style="color: #ffffff; text-decoration: none;">About</a></li>
+                <li><a href="#skills" style="color: #ffffff; text-decoration: none;">Skills</a></li>
+                <li><a href="#projects" style="color: #ffffff; text-decoration: none;">Projects</a></li>
+                <li><a href="#experience" style="color: #ffffff; text-decoration: none;">Experience</a></li>
+                <li><a href="#contact" style="color: #ffffff; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+  <!-- 其他页面内容略 -->
+  <header id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Yanxin Chen</h1>
+      <div class="typewriter-container">
+        <span id="typewriter"></span>
+        <span class="cursor">|</span>
+      </div>
+      <p>Building data-driven web applications and optimization models.</p>
+    </div>
+  </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2 class="section-title">About Me</h2>
+          <p>Hello! I'm Yanxin Chen, a final-year Financial Engineering student at CUHK-Shenzhen. I specialize in building data-driven web applications and predictive optimization models. Passionate about full-stack development, machine learning, and creating intuitive user experiences.</p>
+        </div>
+        <div class="about-avatar">
+          <img src="./images/profile1.jpg" alt="Yanxin Chen Profile">
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2 class="section-title">Core Skills</h2>
+
+      <h3 class="subsection-title">Programming & Web Technologies</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <div class="skill-bar"><div class="skill-level html-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <div class="skill-bar"><div class="skill-level css-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <div class="skill-bar"><div class="skill-level js-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>Python</h3>
+          <div class="skill-bar"><div class="skill-level py-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>C++</h3>
+          <div class="skill-bar"><div class="skill-level cpp-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>SQL</h3>
+          <div class="skill-bar"><div class="skill-level sql-level"></div></div>
+        </div>
+      </div>
+
+      <h3 class="subsection-title">Data Science & Machine Learning</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Machine Learning</h3>
+          <div class="skill-bar"><div class="skill-level ml-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>TensorFlow</h3>
+          <div class="skill-bar"><div class="skill-level tf-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>PyTorch</h3>
+          <div class="skill-bar"><div class="skill-level pt-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>scikit-learn</h3>
+          <div class="skill-bar"><div class="skill-level sk-level"></div></div>
+        </div>
+        <div class="skill-card">
+          <h3>Stata</h3>
+          <div class="skill-bar"><div class="skill-level stata-level"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Experience & Research</h2>
+        <div class="timeline-wrapper">
+            <div class="timeline-event">
+                <h3>Capstone Project Lead @ Anker Innovations</h3>
+                <span class="timeline-date">Jan 2025 – May 2025</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, Predictive Modeling, Optimization.</li>
+                    <li>Built “predict‐then‐optimize” framework to allocate Amazon ad spend by product.</li>
+                    <li>Increased ROI by 12% through data-driven budget modeling.</li>
+                </ul>
+            </div>
+            <div class="timeline-event">
+                <h3>Product Management Intern @ CISDI</h3>
+                <span class="timeline-date">Jun 2024 – Aug 2024</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, Flask, MySQL, UI/UX Design.</li>
+                    <li>Tripled app efficiency via Python & Flask backend (processing 200K+ MySQL rows).</li>
+                    <li>Implemented 10+ group chat and search enhancements across platforms.</li>
+                    <li>Partnered with UI/UX designers to build user-friendly PC & mobile UIs.</li>
+                </ul>
+            </div>
+            <div class="timeline-event">
+                <h3>Data Analyst Intern @ Qrem Technology</h3>
+                <span class="timeline-date">Apr 2024 – Jun 2024</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, Data Modeling, JSON Scraping, PRD Refinement.</li>
+                    <li>Implemented 4 Python‐based mattress models for adaptive comfort control.</li>
+                    <li>Automated JSON scraping, reducing data pipeline latency by 40%.</li>
+                    <li>Refined PRDs via iterative tests and algorithm tuning for better UX.</li>
+                </ul>
+            </div>
+            <div class="timeline-event">
+                <h3>Equity Research Intern @ TF Securities</h3>
+                <span class="timeline-date">Dec 2023 – Mar 2024</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, Regression Analysis, Database Maintenance, Report Writing.</li>
+                    <li>Identified a 12% drop in semiconductor market growth over 5 years through KPI extraction and regression analysis.</li>
+                    <li>Maintained and updated semiconductor database via industry reports and corporate disclosures.</li>
+                    <li>Authored 2 coverage reports and 5 weekly reports using financial data.</li>
+                </ul>
+            </div>
+            <div class="timeline-event">
+                <h3>Research Assistant @ Hype Curve Analysis</h3>
+                <span class="timeline-date">Apr 2023 – Nov 2023</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, Random Forest, Data Analysis, Stata.</li>
+                    <li>Assessed investor exits for 900K+ PitchBook companies with a random forest model.</li>
+                    <li>Revealed gaps in investor exit success among VC-backed companies using distribution and variance analysis.</li>
+                </ul>
+            </div>
+            <div class="timeline-event">
+                <h3>Research Assistant @ Manager Politics Effects</h3>
+                <span class="timeline-date">Mar 2023 – Jun 2023</span>
+                <ul class="timeline-list">
+                    <li>Core Skills: Python, NLP/Linguistic Analysis, Regression Analysis.</li>
+                    <li>Proved conservative execs use 20% more evasive language via linguistic analysis of 60K+ records.</li>
+                    <li>Linked analyst behaviors to higher abnormal returns by analyzing 8M+ transcripts using linguistic variables.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects / Highlights</h2>
+        <div class="projects-list">
+            <div class="project-entry">
+                <h3>Online Resume</h3>
+                <p>A responsive online resume built with pure HTML, showcasing my education, experience, and skills.</p>
+                <a href="https://jane1217.github.io/Capstone-Project-1/" target="_blank" class="project-link">View Project</a>
+            </div>
+            <div class="project-entry">
+                <h3>TinDog Startup Website</h3>
+                <p>A multi-section landing page for a pet social networking platform using HTML, CSS, and JavaScript.</p>
+                <a href="https://jane1217.github.io/TinDog-Startup-Website/" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>Email: <a href="mailto:yanxinchen1@link.cuhk.edu.cn">yanxinchen1@link.cuhk.edu.cn</a></p>
+                <p>GitHub: <a href="https://github.com/yanxinchen" target="_blank">github.com/yanxinchen</a></p>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body">
+                <!-- JS 会动态插入项目详细信息 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入主脚本 -->
+    <script src="main.js"></script>
+</body>
+</html>
