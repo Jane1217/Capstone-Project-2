@@ -1,17 +1,4 @@
-/**
- * main.js
- *
- * 依赖的外部资源（请放在项目根目录的 images 文件夹中）：
- *   - profile.jpg      (Hero 背景和封面头像)
- *   - project1.jpg     (示例项目1缩略图)
- *   - project2.jpg     (示例项目2缩略图)
- *   —— 如果还有新项目，可按 project3.jpg、project4.jpg … 命名，并在 index.html 中添加对应 .project-card
- *
- * 如果项目详情需要外部链接，请在下方插入时替换为实际的 GitHub/演示地址等。
- */
-
-// main.js
-
+// 打字机效果
 document.addEventListener("DOMContentLoaded", () => {
   const typewriterEl = document.getElementById("typewriter");
   const cursorEl = document.querySelector(".cursor");
